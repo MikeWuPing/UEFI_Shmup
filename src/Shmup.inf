@@ -1,0 +1,31 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = Shmup
+  FILE_GUID                      = A1B2C3D4-E5F6-7890-ABCD-EF1234567890
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[BuildOptions]
+  MSFT:*_*_*_CC_FLAGS = /wd4819 /wd4100 /wd4204 /wd4245 /wd4189 /wd4456 /source-charset:utf-8
+  MSFT:*_*_*_LINK_FLAGS = /SUBSYSTEM:EFI_APPLICATION
+
+[Sources]
+  main.c
+  render.c
+  game.c
+  input.c
+  types.h
+  cn_font.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiLib
+  UefiBootServicesTableLib
+  UefiApplicationEntryPoint
+  BaseLib
+  BaseMemoryLib
+  MemoryAllocationLib
+  DebugLib
