@@ -11,8 +11,15 @@
 太空战机是一款经典纵版射击游戏，完全运行在 UEFI Shell 环境中，不依赖任何操作系统。游戏通过 UEFI GOP（Graphics Output Protocol）直接输出 800x600 32位真彩色画面，使用 UEFI Simple Text Input Protocol 读取键盘输入。
 
 玩家操控一架 F-22 风格的先进战斗机，在星空中迎击一波波涌来的敌机编队。击毁敌人获取分数和道具，升级武器火力，召唤僚机编队协同作战，击败强力 Boss。
+
 ![short2](https://github.com/user-attachments/assets/38ab0e0e-e97a-4331-ac0c-510f18c9ccf6)
+
+
+<img width="800" height="600" alt="Snipaste_2026-03-31_11-32-42" src="https://github.com/user-attachments/assets/0503d8f0-d28f-4fde-8174-9622898ed803" />
+
 <img width="786" height="595" alt="Snipaste_2026-03-31_14-19-57" src="https://github.com/user-attachments/assets/95bca9f4-977b-4f04-800c-3d6622874640" />
+
+<img width="786" height="595" alt="Snipaste_2026-03-31_14-23-10" src="https://github.com/user-attachments/assets/910cd7b1-e752-4d1d-8e5a-baeeef906bfc" />
 
 
 ## 特色功能
